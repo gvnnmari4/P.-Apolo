@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Codystar|Montserrat|Poiret+One&display=swap');
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Variáveis CSS */
+    :root{
+      --cor-header: black;
+      --cor-texto-header: white;
+      --arejamento-pagina: 2rem;
+      --cor-body: white;
+    }
+
+  header{
+    text-align: center;
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cor-body);
+  }
+
+  h1{
+    font-family: 'Bungee Shade', cursive;
+  }
+
+ nav{
+    background: black;
+    color: var(--cor-texto-header);
+    display: flex;
+  }
+
+  nav{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+
+  nav a{
+    color: inherit;
+    font-weight: 200;
+    margin-left: var(--arejamento-pagina);
+    text-decoration: none;
+  }
+
+
+ .home{
+  background-image: url(../img/fundof.jpeg);
+  background position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 100%;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: orange;
+  border-radius: 15px;
+  width: 50%; 
+  font-size: 25px;
+  box-shadow: 10px 10px 5px black;
+}
+
+div.box:hover{
+  border-radius: 20px;
+  transition: width 2s;
+}*/ 
+
+
+#energia{
+  text-align: center;
+}
+
+#energia h1{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 30px;
+  font-family: 'Codystar', cursive; 
+}
+
+.box_energia p{
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  padding-top: 2%;
+}
+
+.box_2{
+  background-color: #ffffe6;
+  width: 70%;
+  padding-top: 5%;
+}
+
+#mulheres{
+  background-color: #cc66cc;
+  padding-top: 100px;
+  padding-bottom: 100%;
+  text-align: center;
+}
+
+#mulheres h1{
+  font-family: 'Codystar', cursive;
+}
+
+#mulheres h2{
+  font-family: 'Poiret One', cursive;
+}
+
+#mulheres img{
+  width: 5%;
+  opacity: 0.2;
+
+}
+
+#mulheres img:hover{
+  opacity: 0.5;
+}
+
+#mulheres p{
+  padding-top: 5%;
+  margin-left: 25%;
+  width:50%;
+}
+
+
+.form_container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: black;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #ffcc66;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+ /* Escondendo as páginas que não devem ser visíveis inicialmente */
+
+.invisivel{
+    display: none;
+    text-align: center;
+  }
+
+
+}
+
+h2{
+  font-family: 'Gruppo', cursive;
+
+}
+
+#linha{
+}     
+
+@media (max-width: 600px){
+  #home{
+      margin: 0.016% 0;
+      padding: 0.011%;
+      margin-left: 0.42%;
+
+  }
+
+  #home img{
+    font-size: 0.032%;
+    padding-right: 0.079%;
+    width: 45%;
+  }
+
+
